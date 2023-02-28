@@ -1,0 +1,133 @@
+html {
+    background: #379683
+}
+
+main {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    border: solid black 3px;
+    font-family: bradley hand, cursive;
+    background: #8EE4AF;
+}
+
+button, input[type=button], input[type=submit]{
+    font-family: bradley hand, cursive;
+    font-weight: bold;
+    color: #379683;
+    border: 3px solid #05386B;
+    padding: 18px 36px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#names {
+    padding-right: 50px;
+}
+
+#mytable td, #article-table td {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+#mytable, #article-table {
+    width: 100%;
+}
+
+h1 {
+    font-family: bradley hand, cursive;
+}
+
+#article_head {
+    padding-left: 50px;
+}
+
+#buttons {
+    width: 100%;
+    padding: 10px;
+}
+
+#top_table {    
+    width: 100%;
+    height: 20px;
+    border-bottom: solid black 3px;
+}
+
+#buttons {
+    border-top: solid black 3px;
+    width: 100%;
+    height: 20px;
+}
+
+button:hover, input[type=button]:hover, input[type=submit]:hover {
+    box-shadow: inset 0 100px 0 0 #05386B;
+}
+
+#edit, #show {
+    color:#1e62a5;
+}
+
+#delete {
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h3, p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#create-article-dialog {
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    border: solid black 3px;
+    background-color: #EDF5E1;
+}
+
+#article-name {
+    font-family: bradley hand, cursive;
+    font-weight: bold;
+    color: black;
+    border: 3px solid #05386B;
+    display: inline-block;
+    cursor: copy;
+    width: 90%;
+}
+
+#article-body {
+    font-family: bradley hand, cursive;
+    font-weight: bold;
+    color: black;
+    border: 3px solid #05386B;
+    display: inline-block;
+    cursor: copy;
+}
+#edit-form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#likeclick, #dislikeclick {
+    color: black;
+    font-size: large;
+    padding: 0px, 0px;
+}
